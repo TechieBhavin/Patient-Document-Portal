@@ -1,6 +1,6 @@
 ## 🎥 Demo Video
 
-[![Watch the video](./demo/thumbnail.png)](./demo/demo.mp4)
+[![Watch the video](./demo/demo.gif)]
 
 # 🏥 Patient Document Portal
 
