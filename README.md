@@ -1,10 +1,10 @@
-## 🎥 Demo Video
+## 🎥 Demo
 
-[![Watch the video](./demo/demo.gif)]
+![Watch the video](./demo/demo.gif)
 
 # 🏥 Patient Document Portal
 
-A full-stack application built as part of the **Full Stack Developer Intern Assessment**, allowing users to upload, view, download, and delete medical PDF documents.
+A full-stack application built as part of the **Full Stack Developer(Entry Level) Assessment**, allowing users to upload, view, download, and delete medical PDF documents.
 
 ---
 
