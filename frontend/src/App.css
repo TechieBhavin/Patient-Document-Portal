@@ -1,0 +1,40 @@
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+ background: url("/bg.png");
+  min-height: 100vh;
+}
+.main-card {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 14px;
+  background: rgb(255, 255, 255);
+}
+body {
+  display: block !important;
+  place-items: unset !important;
+  background: #ebedef !important;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.filename-cell {
+  max-width: 250px;     
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.action-buttons {
+  white-space: nowrap;
+  display: flex;
+  gap: 8px;          
+}
+.table td, .table th {
+  vertical-align: middle; 
+}
+.table-container {
+  overflow-x: auto;
+}
+
