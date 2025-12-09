@@ -78,9 +78,9 @@ app.get("/documents/:id/view", async (req, res) => {
 app.get("/documents/:id/download", async (req, res) => {
   try {
     const doc = await Document.findById(req.params.id);
-    if (!doc) return res.status(404).json({ error: "Document not found" });
+    if (!doc) return res.status(404).json({ error: "Document n  ot found" });
 
-    res.download(path.resolve(doc.filepath));
+    res.download(path.resolve(doc.filepath), doc.filename);
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Unable to download document" });
